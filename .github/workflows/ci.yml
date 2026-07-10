@@ -9,5 +9,5 @@ on:
 
 jobs:
   ci:
-    uses: shau-08/USER-mmu/.github/workflows/reusable-ci.yml@main
+    uses: shau-08/CICD/.github/workflows/reusable-ci.yml@main
     secrets: inherit
