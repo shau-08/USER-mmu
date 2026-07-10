@@ -1,0 +1,16 @@
+name: CD
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release tag (leave blank to auto-generate <repo>-<branch>-<date>-<sha>)'
+        required: false
+        type: string
+
+jobs:
+  cd:
+    uses: ORG/Chisel-RTL/.github/workflows/reusable-cd.yml@main
+    with:
+      tag_name: ${{ inputs.tag_name }}
+      build_output_path: generated_sv_dir
+    secrets: inherit
