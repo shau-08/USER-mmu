@@ -9,7 +9,7 @@ on:
 
 jobs:
   cd:
-    uses: shau-08/USER-mmu/.github/workflows/reusable-cd.yml@main
+    uses: shau-08/CICD/.github/workflows/reusable-cd.yml@main
     with:
       tag_name: ${{ inputs.tag_name }}
       build_output_path: generated_sv_dir
