@@ -1,7 +1,5 @@
 name: CI
-# Triggers on every push (any branch) and every PR event.
-# @main pins this to always read reusable-ci.yml from main — update CI
-# logic once in the central repo, every branch/repo picks it up.
+
 on:
   push:
   pull_request:
