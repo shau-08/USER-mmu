@@ -1,0 +1,5 @@
+#!/bin/bash
+make lint || true
+if ! git diff --exit-code --quiet; then
+  echo "Lint reformatted files after your last commit. Review, commit the changes, and push again -- the push will be blocked otherwise."
+fi
