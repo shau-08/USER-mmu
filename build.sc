@@ -151,7 +151,7 @@ object chipyardAnnotations extends playground_build.CommonModule with SbtModule 
 
 object chipyardGenerators extends playground_build.CommonModule with SbtModule {
   override def millSourcePath = os.pwd / os.up / "playground" / "dependencies" / "chipyard" / "generators" / "chipyard"
-  override def moduleDeps = super.moduleDeps ++ Seq(myrocketchip, mydiplomacy, mycde)
+  override def moduleDeps = super.moduleDeps ++ Seq(myrocketchip, mydiplomacy, mycde, testchipip, blocks)
 }
 
 object chipyardFirrtl2 extends playground_build.CommonModule with SbtModule {
