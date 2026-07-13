@@ -5,7 +5,7 @@ import org.chipsalliance.diplomacy.lazymodule.LazyModule
 
 /** To run from a terminal shell
   * {{{
-  * mill mmu.runMain redefine.rrm.mmu.genRTLMain mmu,,
+  * mill mmu.runMain redefine.rrm.mmu.genRTLMain mmu,
   * }}}
   */
 object genRTLMain extends App with emitrtl.LazyToplevel {
