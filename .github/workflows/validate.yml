@@ -1,7 +1,5 @@
 name: Validate Workflows
-# Deliberately self-contained -- does NOT call reusable-ci.yml@main, since
-# this is the file responsible for catching mistakes in the other workflow
-# files. It can't depend on them being correct first.
+
 on:
   pull_request:
     paths:
