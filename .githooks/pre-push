@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+echo "Running lint check before push..."
+make lint
+
+if ! git diff --exit-code --quiet; then
+  echo ""
+  echo "Push aborted: lint reformatted one or more files."
+  echo "   Review the changes below, then commit them and push again."
+  echo ""
+  git diff --stat
+  exit 1
+fi
+
+echo "Lint check passed -- nothing needed reformatting. Proceeding with push."
