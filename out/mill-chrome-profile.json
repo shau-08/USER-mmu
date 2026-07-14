@@ -1,6 +1,6 @@
 [
-{"name":"mill.scalalib.scalafmt.ScalafmtWorkerModule.worker","cat":"job","ph":"X","ts":10031483540,"dur":2924,"pid":1,"tid":0,"args":["cached"]},
-{"name":"mmu.sources","cat":"job","ph":"X","ts":10031486771,"dur":1837,"pid":1,"tid":0,"args":[]},
-{"name":"mmu.scalafmtConfig","cat":"job","ph":"X","ts":10031488692,"dur":1828,"pid":1,"tid":0,"args":[]},
-{"name":"mmu.reformat","cat":"job","ph":"X","ts":10031490616,"dur":5858,"pid":1,"tid":0,"args":[]}
+{"name":"mill.scalalib.scalafmt.ScalafmtWorkerModule.worker","cat":"job","ph":"X","ts":10078241974,"dur":2686,"pid":1,"tid":0,"args":["cached"]},
+{"name":"mmu.sources","cat":"job","ph":"X","ts":10078244863,"dur":1273,"pid":1,"tid":0,"args":[]},
+{"name":"mmu.scalafmtConfig","cat":"job","ph":"X","ts":10078246174,"dur":1143,"pid":1,"tid":0,"args":[]},
+{"name":"mmu.reformat","cat":"job","ph":"X","ts":10078247389,"dur":2436,"pid":1,"tid":0,"args":[]}
 ]
