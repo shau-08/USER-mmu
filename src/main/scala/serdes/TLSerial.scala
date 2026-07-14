@@ -11,7 +11,7 @@ import freechips.rocketchip.tilelink.{
 }
 import org.chipsalliance.cde.config.Parameters
 import org.chipsalliance.diplomacy.lazymodule.{LazyModule, LazyModuleImp}
-import testchipip.serdes.{CreditedSourceSyncPhitIO, CreditedSourceSyncSerialPhyParams, Flit, TLSerdesser}
+import testchipip.serdes.{SourceSyncPhitIO, InternalSyncSerialPhyParams, Flit, TLSerdesser}
 
 class TLSerial(
   val phitWidth:     Int,
@@ -33,9 +33,9 @@ class TLSerial(
 
 class TLSerialImp(outer: TLSerial) extends LazyModuleImp(outer) {
   val phyParams =
-    CreditedSourceSyncSerialPhyParams(phitWidth = outer.phitWidth, flitWidth = outer.flitWidth, freqMHz = 100)
+    InternalSyncSerialPhyParams(phitWidth = outer.phitWidth, flitWidth = outer.flitWidth, freqMHz = 100)
 
-  val io = IO(new CreditedSourceSyncPhitIO(phyParams.phitWidth))
+  val io = IO(new SourceSyncPhitIO(phyParams.phitWidth))
 
   val serPhy = Module(new SerdesPhyImp(phyParams))
 
@@ -111,7 +111,7 @@ class TLSerialLoopBack(implicit p: Parameters) extends LazyModule {
 }
 
 class TLSerialLoopBackImp(outer: TLSerialLoopBack) extends LazyModuleImp(outer) {
-  val io = IO(new CreditedSourceSyncPhitIO(outer.phitWidth))
+  val io = IO(new SourceSyncPhitIO(outer.phitWidth))
 
   io <> outer.tlSer.module.io
 }
