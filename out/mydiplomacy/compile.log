@@ -1,9 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0mcompiling 36 Scala sources to /home/shauryaps/USER-mmu/out/mydiplomacy/compile.dest/classes ...[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/shauryaps/playground/dependencies/diplomacy/diplomacy/src/diplomacy/nodes/NodeImp.scala:63:20: parameter node in method mixI is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def mixI(pu: UI, node: InwardNode[DI, UI, BI]): UI = pu[0m
-[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/shauryaps/playground/dependencies/diplomacy/diplomacy/src/diplomacy/nodes/NodeImp.scala:138:20: parameter node in method mixO is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def mixO(pd: DO, node: OutwardNode[DO, UO, BO]): DO = pd[0m
-[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
-[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m

@@ -1,8 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0mcompiling 322 Scala sources to /home/shauryaps/USER-mmu/out/myrocketchip/compile.dest/classes ...[0m
-[0m[[0m[33mwarn[0m] [0m[0m3 deprecations[0m
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 6.6.0)[0m
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since rocket-chip 1.2)[0m
-[0m[[0m[33mwarn[0m] [0m[0m5 deprecations in total; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0m2887 feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
-[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m

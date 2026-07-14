@@ -1,6 +1,0 @@
-[
-{"name":"mill.scalalib.scalafmt.ScalafmtWorkerModule.worker","cat":"job","ph":"X","ts":10368610441,"dur":2641,"pid":1,"tid":0,"args":["cached"]},
-{"name":"mmu.sources","cat":"job","ph":"X","ts":10368613291,"dur":1285,"pid":1,"tid":0,"args":[]},
-{"name":"mmu.scalafmtConfig","cat":"job","ph":"X","ts":10368614606,"dur":1071,"pid":1,"tid":0,"args":[]},
-{"name":"mmu.reformat","cat":"job","ph":"X","ts":10368615716,"dur":1308,"pid":1,"tid":0,"args":[]}
-]
