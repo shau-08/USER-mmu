@@ -1,19 +1,21 @@
-project = mmu
+project = explorerTL
 
-TARGET = MMU
+TARGET ?= "Point2Point"
 
 # Toolchains and tools
 MILL = ./../playground/mill
 
--include ./../playground/Makefile.include
+-include ../playground/Makefile.include
 
 # Targets
-rtl: check-firtool ## Generates Verilog code from Chisel sources (output to ./generated_sv_dir)
-	$(MILL) $(project).runMain redefine.rrm.mmu.genRTLMain $(TARGET)
+rtl:check-firtool ## Generates Verilog code from Chisel sources (output to ./generated_sv_dir)
+	$(MILL) $(project).runMain $(project).explorerTLMain $(TARGET)
 
+lazyrtl:check-firtool ## Generates Verilog code from Chisel sources (output to ./generated_sv_dir)
+	$(MILL) $(project).runMain $(project).lazyExplorerTLMain $(TARGET)
 
 check: test
 .PHONY: test
-test: check-verilator ## Run Chisel tests
-	$(MILL) $(project).test.testOnly redefine.rrm.mmu.smoke.MMUTest
+test:check-firtool ## Run Chisel tests
+	$(MILL) $(project).test.testOnly $(project).serdes.TestSerDesLoopBack
 	@echo "If using WriteVcdAnnotation in your tests, the VCD files are generated in ./test_run_dir/testname directories."
