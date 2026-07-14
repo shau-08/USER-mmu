@@ -1,3 +1,6 @@
 [submodule "dependencies/emitrtl"]
 	path = dependencies/emitrtl
-	url = git@github.com:morphingmachines/emitrtl.git
+	url = https://github.com/morphingmachines/emitrtl.git
+[submodule "dependencies/dependencies/emitrtl"]
+	path = dependencies/dependencies/emitrtl
+	url = https://github.com/morphingmachines/emitrtl.git
