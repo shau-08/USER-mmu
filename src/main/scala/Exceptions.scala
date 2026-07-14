@@ -38,7 +38,7 @@ class MMUExceptionUnitImp(outer: MMUExceptionUnit) extends LazyModuleImp(outer) 
     }))
   })
 
-  // Latches exception info only when no exception is already pending.
+  // atches exception info only when no exception is already pending.
   // New exceptions are silently dropped until software clears the pending flag (w1ToClear).
   val exceptionPendingReg = RegInit(false.B)
   val captureEn           = !exceptionPendingReg && io.in.valid
