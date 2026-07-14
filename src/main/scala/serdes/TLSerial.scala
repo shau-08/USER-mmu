@@ -11,7 +11,7 @@ import freechips.rocketchip.tilelink.{
 }
 import org.chipsalliance.cde.config.Parameters
 import org.chipsalliance.diplomacy.lazymodule.{LazyModule, LazyModuleImp}
-import testchipip.serdes.{SourceSyncPhitIO, InternalSyncSerialPhyParams, Flit, TLSerdesser}
+import testchipip.serdes.{Flit, InternalSyncSerialPhyParams, SourceSyncPhitIO, TLSerdesser}
 
 class TLSerial(
   val phitWidth:     Int,
