@@ -7,7 +7,7 @@ import explorerTL.serdes.{SerdesPhyImp, TLSerialLoopBack}
 import explorerTL.switchboard.Minimal
 import org.chipsalliance.cde.config.Parameters
 import org.chipsalliance.diplomacy.lazymodule.LazyModule
-import testchipip.serdes.DecoupledInternalSyncSerialPhyParams
+import testchipip.serdes.CreditedSourceSyncSerialPhyParams
 
 /** To run from a terminal shell
   * {{{
@@ -40,7 +40,7 @@ object explorerTLMain extends App with Toplevel {
   val str = if (args.length == 0) "" else args(0)
   lazy val topModule = str match {
     case "Minimal" => new Minimal
-    case "SerPhy"  => new SerdesPhyImp(DecoupledInternalSyncSerialPhyParams())
+    case "SerPhy"  => new SerdesPhyImp(CreditedSourceSyncSerialPhyParams())
     case _         => throw new Exception("Unknown Module Name!")
   }
   chisel2firrtl()

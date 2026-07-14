@@ -2,10 +2,10 @@ package explorerTL.serdes
 
 import chisel3._
 import freechips.rocketchip.util.ResetCatchAndSync
-import testchipip.serdes.{CreditedSerialPhy, DecoupledFlitIO, SerialPhyParams, DecoupledInternalSyncPhitIO}
+import testchipip.serdes.{CreditedSerialPhy, DecoupledFlitIO, SerialPhyParams, CreditedSourceSyncPhitIO}
 
 class SerdesPhyImp(serPhyParams: SerialPhyParams) extends Module {
-  val io = IO(new DecoupledInternalSyncPhitIO(serPhyParams.phitWidth))
+  val io = IO(new CreditedSourceSyncPhitIO(serPhyParams.phitWidth))
 
   val inner_ser = IO(Flipped(Vec(2, new DecoupledFlitIO(serPhyParams.flitWidth))))
 
