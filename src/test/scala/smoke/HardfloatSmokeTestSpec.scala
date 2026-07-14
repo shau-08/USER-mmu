@@ -9,6 +9,7 @@ class HardfloatSmokeTestSpec extends AnyFlatSpec {
   behavior of "HardfloatSmokeTest"
 
   it should "elaborate without error" in {
-    ChiselStage.elaborate(new HardfloatSmokeTest(8, 24))
+    val chirrtl = ChiselStage.emitCHIRRTL(new HardfloatSmokeTest(8, 24))
+    assert(chirrtl.nonEmpty)
   }
 }
