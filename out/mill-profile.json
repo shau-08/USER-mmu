@@ -1,25 +1,25 @@
 [
   {
     "label": "mill.scalalib.scalafmt.ScalafmtWorkerModule.worker",
-    "millis": 3,
+    "millis": 2,
     "cached": true,
     "inputsHash": -1260393456
   },
   {
     "label": "mmu.sources",
-    "millis": 2,
-    "inputsHash": 1290520541,
-    "previousInputsHash": -720932228
+    "millis": 1,
+    "inputsHash": -2103841126,
+    "previousInputsHash": -935208725
   },
   {
     "label": "mmu.scalafmtConfig",
-    "millis": 1,
-    "inputsHash": -20643495,
-    "previousInputsHash": -1041952628
+    "millis": 2,
+    "inputsHash": -1854486488,
+    "previousInputsHash": -20643495
   },
   {
     "label": "mmu.reformat",
-    "millis": 2,
+    "millis": 1,
     "cached": false,
     "dependencies": [
       "mmu.scalafmtConfig",
@@ -27,6 +27,6 @@
       "mmu.sources"
     ],
     "inputsHash": -945815026,
-    "previousInputsHash": 790185359
+    "previousInputsHash": -945815026
   }
 ]
