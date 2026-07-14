@@ -1,3 +1,3 @@
-[submodule "dependencies/berkeley-hardfloat"]
-	path = dependencies/berkeley-hardfloat
-	url = git@github.com:ucb-bar/berkeley-hardfloat.git
+[submodule "dependencies/emitrtl"]
+	path = dependencies/emitrtl
+	url = git@github.com:morphingmachines/emitrtl.git
