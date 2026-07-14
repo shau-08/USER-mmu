@@ -1,6 +1,5 @@
 package smoke
 
-import chisel3._
 import circt.stage.ChiselStage
 import testproj.HardfloatSmokeTest
 import org.scalatest.flatspec.AnyFlatSpec
