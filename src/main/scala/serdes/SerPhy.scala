@@ -2,7 +2,7 @@ package explorerTL.serdes
 
 import chisel3._
 import freechips.rocketchip.util.ResetCatchAndSync
-import testchipip.serdes.{CreditedSerialPhy, DecoupledFlitIO, SerialPhyParams, CreditedSourceSyncPhitIO}
+import testchipip.serdes.{CreditedSerialPhy, CreditedSourceSyncPhitIO, DecoupledFlitIO, SerialPhyParams}
 
 class SerdesPhyImp(serPhyParams: SerialPhyParams) extends Module {
   val io = IO(new CreditedSourceSyncPhitIO(serPhyParams.phitWidth))
