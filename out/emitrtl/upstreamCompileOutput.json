@@ -1,0 +1,34 @@
+{
+    "value": [
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/myrocketchip/compile.dest/zinc",
+            "classes": "ref:v0:1fc81e8d:/home/shauryaps/USER-mmu/out/myrocketchip/compile.dest/classes"
+        },
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/mycde/compile.dest/zinc",
+            "classes": "ref:v0:3837b465:/home/shauryaps/USER-mmu/out/mycde/compile.dest/classes"
+        },
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/mydiplomacy/compile.dest/zinc",
+            "classes": "ref:v0:b0ddce62:/home/shauryaps/USER-mmu/out/mydiplomacy/compile.dest/classes"
+        },
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/myhardfloat/compile.dest/zinc",
+            "classes": "ref:v0:11b2fb4b:/home/shauryaps/USER-mmu/out/myhardfloat/compile.dest/classes"
+        },
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/macros/compile.dest/zinc",
+            "classes": "ref:v0:5778bdf9:/home/shauryaps/USER-mmu/out/macros/compile.dest/classes"
+        },
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/chipyardAnnotations/compile.dest/zinc",
+            "classes": "ref:v0:e4a8d7d5:/home/shauryaps/USER-mmu/out/chipyardAnnotations/compile.dest/classes"
+        },
+        {
+            "analysisFile": "/home/shauryaps/USER-mmu/out/chipyardTapeout/compile.dest/zinc",
+            "classes": "ref:v0:b6a18edb:/home/shauryaps/USER-mmu/out/chipyardTapeout/compile.dest/classes"
+        }
+    ],
+    "valueHash": -1283043514,
+    "inputsHash": -1296702832
+}

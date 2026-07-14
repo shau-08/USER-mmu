@@ -1,0 +1,3273 @@
+[
+  {
+    "label": "mmu.sources",
+    "millis": 59,
+    "inputsHash": -739626545
+  },
+  {
+    "label": "mmu.scalaVersion",
+    "millis": 14,
+    "cached": false,
+    "inputsHash": 403317887
+  },
+  {
+    "label": "mmu.mandatoryScalacOptions",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 567218319
+  },
+  {
+    "label": "mmu.platformSuffix",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 722667557
+  },
+  {
+    "label": "mmu.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 7,
+    "cached": false,
+    "inputsHash": 1953066780
+  },
+  {
+    "label": "mmu.scalacPluginIvyDeps",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -2062161019
+  },
+  {
+    "label": "mmu.scalaOrganization",
+    "millis": 15,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion"
+    ],
+    "inputsHash": -670481520
+  },
+  {
+    "label": "mmu.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 39,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mmu.scalacPluginIvyDeps",
+      "mmu.scalaOrganization"
+    ],
+    "inputsHash": -622463493
+  },
+  {
+    "label": "mmu.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+    "millis": 15,
+    "cached": false,
+    "inputsHash": 958775212
+  },
+  {
+    "label": "mmu.scalacOptions",
+    "millis": 14,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions"
+    ],
+    "inputsHash": -1392055988
+  },
+  {
+    "label": "mmu.allScalacOptions",
+    "millis": 14,
+    "cached": false,
+    "dependencies": [
+      "mmu.mandatoryScalacOptions",
+      "mmu.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "mmu.scalacOptions"
+    ],
+    "inputsHash": 799588048
+  },
+  {
+    "label": "mmu.semanticDbScalaVersion",
+    "millis": 12,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion"
+    ],
+    "inputsHash": 1868339252
+  },
+  {
+    "label": "mmu.semanticDbVersion",
+    "millis": 20,
+    "inputsHash": -844622305
+  },
+  {
+    "label": "mmu.semanticDbPluginIvyDeps",
+    "millis": 10,
+    "cached": false,
+    "dependencies": [
+      "mmu.semanticDbScalaVersion",
+      "mmu.semanticDbVersion"
+    ],
+    "inputsHash": 4951249
+  },
+  {
+    "label": "mmu.semanticDbEnablePluginScalacOptions",
+    "millis": 2597,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mmu.semanticDbPluginIvyDeps",
+      "mmu.scalaOrganization"
+    ],
+    "inputsHash": -2101478419
+  },
+  {
+    "label": "mmu.javacOptions",
+    "millis": 26,
+    "cached": false,
+    "inputsHash": 1969924508
+  },
+  {
+    "label": "mmu.semanticDbJavaVersion",
+    "millis": 19,
+    "inputsHash": 181782584
+  },
+  {
+    "label": "mill.scalalib.ZincWorkerModule.classpath",
+    "millis": 313,
+    "cached": false,
+    "inputsHash": -1260393456
+  },
+  {
+    "label": "mill.scalalib.ZincWorkerModule.zincLogDebug",
+    "millis": 4,
+    "inputsHash": -398847992
+  },
+  {
+    "label": "mill.scalalib.ZincWorkerModule.worker",
+    "millis": 22,
+    "cached": false,
+    "dependencies": [
+      "mill.scalalib.ZincWorkerModule.classpath",
+      "mill.scalalib.ZincWorkerModule.zincLogDebug"
+    ],
+    "inputsHash": 1471760809
+  },
+  {
+    "label": "mydiplomacy.scalaVersion",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 1629962716
+  },
+  {
+    "label": "mycde.scalaVersion",
+    "millis": 11,
+    "cached": false,
+    "inputsHash": -1903632242
+  },
+  {
+    "label": "mycde.upstreamCompileOutput",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": -1036709389
+  },
+  {
+    "label": "mycde.sources",
+    "millis": 7,
+    "inputsHash": -414302028
+  },
+  {
+    "label": "mycde.generatedSources",
+    "millis": 6,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "mycde.allSources",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mycde.sources",
+      "mycde.generatedSources"
+    ],
+    "inputsHash": -1202088130
+  },
+  {
+    "label": "mycde.allSourceFiles",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "mycde.allSources"
+    ],
+    "inputsHash": 1009787680
+  },
+  {
+    "label": "mycde.compileIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "mycde.platformSuffix",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "mycde.transitiveCompileIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion",
+      "mycde.platformSuffix",
+      "mycde.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "mycde.ivyDeps",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 1296738391
+  },
+  {
+    "label": "mycde.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "mycde.scalaOrganization",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "mycde.scalaLibraryIvyDeps",
+    "millis": 7,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaOrganization",
+      "mycde.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "mycde.mandatoryIvyDeps",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "mycde.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "mycde.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "mycde.transitiveIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion",
+      "mycde.platformSuffix",
+      "mycde.ivyDeps",
+      "mycde.mandatoryIvyDeps"
+    ],
+    "inputsHash": 1941309156
+  },
+  {
+    "label": "mycde.resolvedIvyDeps",
+    "millis": 13,
+    "cached": false,
+    "dependencies": [
+      "mycde.transitiveCompileIvyDeps",
+      "mycde.transitiveIvyDeps",
+      "mycde.scalaVersion",
+      "mycde.scalaOrganization"
+    ],
+    "inputsHash": 140748565
+  },
+  {
+    "label": "mycde.transitiveCompileClasspath",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": -966756454
+  },
+  {
+    "label": "mycde.compileResources",
+    "millis": 6,
+    "inputsHash": -1112657060
+  },
+  {
+    "label": "mycde.unmanagedClasspath",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "mycde.localCompileClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "mycde.compileResources",
+      "mycde.unmanagedClasspath"
+    ],
+    "inputsHash": -1155068366
+  },
+  {
+    "label": "mycde.compileClasspath",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "mycde.resolvedIvyDeps",
+      "mycde.transitiveCompileClasspath",
+      "mycde.localCompileClasspath"
+    ],
+    "inputsHash": -2079829997
+  },
+  {
+    "label": "mycde.javacOptions",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "mycde.mandatoryScalacOptions",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "mycde.scalacPluginIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 206326534
+  },
+  {
+    "label": "mycde.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 7,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion",
+      "mycde.platformSuffix",
+      "mycde.scalacPluginIvyDeps",
+      "mycde.scalaOrganization"
+    ],
+    "inputsHash": 515513279
+  },
+  {
+    "label": "mycde.scalacOptions",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 712963042
+  },
+  {
+    "label": "mycde.allScalacOptions",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "mycde.mandatoryScalacOptions",
+      "mycde.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "mycde.scalacOptions"
+    ],
+    "inputsHash": -116640771
+  },
+  {
+    "label": "mycde.scalaCompilerClasspath",
+    "millis": 34,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion",
+      "mycde.platformSuffix",
+      "mycde.scalaOrganization",
+      "mycde.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "mycde.scalacPluginClasspath",
+    "millis": 7,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion",
+      "mycde.platformSuffix",
+      "mycde.scalacPluginIvyDeps",
+      "mycde.scalaOrganization"
+    ],
+    "inputsHash": -147414809
+  },
+  {
+    "label": "mycde.zincReportCachedProblems",
+    "millis": 5,
+    "inputsHash": -196200367
+  },
+  {
+    "label": "mycde.zincIncrementalCompilation",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "mycde.compile",
+    "millis": 3648,
+    "cached": false,
+    "dependencies": [
+      "mycde.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "mycde.upstreamCompileOutput",
+      "mycde.allSourceFiles",
+      "mycde.compileClasspath",
+      "mycde.javacOptions",
+      "mycde.scalaOrganization",
+      "mycde.allScalacOptions",
+      "mycde.scalaCompilerClasspath",
+      "mycde.scalacPluginClasspath",
+      "mycde.zincReportCachedProblems",
+      "mycde.zincIncrementalCompilation"
+    ],
+    "inputsHash": 244551759
+  },
+  {
+    "label": "mydiplomacy.upstreamCompileOutput",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mycde.compile"
+    ],
+    "inputsHash": -221802360
+  },
+  {
+    "label": "mydiplomacy.sources",
+    "millis": 22,
+    "inputsHash": 777686185
+  },
+  {
+    "label": "mydiplomacy.generatedSources",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "mydiplomacy.allSources",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.sources",
+      "mydiplomacy.generatedSources"
+    ],
+    "inputsHash": -1377188468
+  },
+  {
+    "label": "mydiplomacy.allSourceFiles",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.allSources"
+    ],
+    "inputsHash": 1735997492
+  },
+  {
+    "label": "mydiplomacy.compileIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "mydiplomacy.platformSuffix",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "mydiplomacy.transitiveCompileIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion",
+      "mydiplomacy.platformSuffix",
+      "mydiplomacy.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "mydiplomacy.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1581094842
+  },
+  {
+    "label": "mydiplomacy.ivyDeps.super.millbuild.^.playground.dependencies.diplomacy.common.HasChisel.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": -1301355345
+  },
+  {
+    "label": "mydiplomacy.ivyDeps.super.millbuild.^.playground.dependencies.diplomacy.common.DiplomacyModule.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.ivyDeps.super.millbuild.^.playground.dependencies.diplomacy.common.HasChisel.ivyDeps"
+    ],
+    "inputsHash": 1257718690
+  },
+  {
+    "label": "mydiplomacy.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.ivyDeps.super.millbuild.^.playground.dependencies.diplomacy.common.DiplomacyModule.ivyDeps"
+    ],
+    "inputsHash": 471063059
+  },
+  {
+    "label": "mydiplomacy.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "mydiplomacy.scalaOrganization",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "mydiplomacy.scalaLibraryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaOrganization",
+      "mydiplomacy.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "mydiplomacy.mandatoryIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "mydiplomacy.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "mydiplomacy.transitiveIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion",
+      "mydiplomacy.platformSuffix",
+      "mycde.transitiveIvyDeps",
+      "mydiplomacy.ivyDeps",
+      "mydiplomacy.mandatoryIvyDeps"
+    ],
+    "inputsHash": -370840268
+  },
+  {
+    "label": "mydiplomacy.resolvedIvyDeps",
+    "millis": 289,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.transitiveCompileIvyDeps",
+      "mydiplomacy.transitiveIvyDeps",
+      "mydiplomacy.scalaVersion",
+      "mydiplomacy.scalaOrganization"
+    ],
+    "inputsHash": -963078109
+  },
+  {
+    "label": "mydiplomacy.transitiveCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mycde.localCompileClasspath",
+      "mycde.compile"
+    ],
+    "inputsHash": 1823037561
+  },
+  {
+    "label": "mydiplomacy.compileResources",
+    "millis": 6,
+    "inputsHash": -1552250792
+  },
+  {
+    "label": "mydiplomacy.unmanagedClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "mydiplomacy.localCompileClasspath",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.compileResources",
+      "mydiplomacy.unmanagedClasspath"
+    ],
+    "inputsHash": -2135917405
+  },
+  {
+    "label": "mydiplomacy.compileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.resolvedIvyDeps",
+      "mydiplomacy.transitiveCompileClasspath",
+      "mydiplomacy.localCompileClasspath"
+    ],
+    "inputsHash": -1484996363
+  },
+  {
+    "label": "mydiplomacy.javacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "mydiplomacy.mandatoryScalacOptions",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "mydiplomacy.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1205329374
+  },
+  {
+    "label": "mydiplomacy.scalacPluginIvyDeps.super.millbuild.^.playground.dependencies.diplomacy.common.HasChisel.scalacPluginIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -925589877
+  },
+  {
+    "label": "mydiplomacy.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalacPluginIvyDeps.super.millbuild.^.playground.dependencies.diplomacy.common.HasChisel.scalacPluginIvyDeps"
+    ],
+    "inputsHash": 561827291
+  },
+  {
+    "label": "mydiplomacy.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 12,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion",
+      "mydiplomacy.platformSuffix",
+      "mydiplomacy.scalacPluginIvyDeps",
+      "mydiplomacy.scalaOrganization"
+    ],
+    "inputsHash": 514107649
+  },
+  {
+    "label": "mydiplomacy.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 536339272
+  },
+  {
+    "label": "mydiplomacy.chiselPluginJar",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -281046102
+  },
+  {
+    "label": "mydiplomacy.scalacOptions.super.millbuild.^.playground.dependencies.diplomacy.common.HasChisel.scalacOptions",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+      "mydiplomacy.chiselPluginJar"
+    ],
+    "inputsHash": -430391323
+  },
+  {
+    "label": "mydiplomacy.scalacOptions",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalacOptions.super.millbuild.^.playground.dependencies.diplomacy.common.HasChisel.scalacOptions"
+    ],
+    "inputsHash": 663039285
+  },
+  {
+    "label": "mydiplomacy.allScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.mandatoryScalacOptions",
+      "mydiplomacy.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "mydiplomacy.scalacOptions"
+    ],
+    "inputsHash": -1062785951
+  },
+  {
+    "label": "mydiplomacy.scalaCompilerClasspath",
+    "millis": 28,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion",
+      "mydiplomacy.platformSuffix",
+      "mydiplomacy.scalaOrganization",
+      "mydiplomacy.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "mydiplomacy.scalacPluginClasspath.super.mill.scalalib.ScalaModule.scalacPluginClasspath",
+    "millis": 34,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion",
+      "mydiplomacy.platformSuffix",
+      "mydiplomacy.scalacPluginIvyDeps",
+      "mydiplomacy.scalaOrganization"
+    ],
+    "inputsHash": 150450777
+  },
+  {
+    "label": "mydiplomacy.scalacPluginClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalacPluginClasspath.super.mill.scalalib.ScalaModule.scalacPluginClasspath",
+      "mydiplomacy.chiselPluginJar"
+    ],
+    "inputsHash": -749531374
+  },
+  {
+    "label": "mydiplomacy.zincReportCachedProblems",
+    "millis": 1,
+    "inputsHash": 772250608
+  },
+  {
+    "label": "mydiplomacy.zincIncrementalCompilation",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "mydiplomacy.compile",
+    "millis": 13668,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "mydiplomacy.upstreamCompileOutput",
+      "mydiplomacy.allSourceFiles",
+      "mydiplomacy.compileClasspath",
+      "mydiplomacy.javacOptions",
+      "mydiplomacy.scalaOrganization",
+      "mydiplomacy.allScalacOptions",
+      "mydiplomacy.scalaCompilerClasspath",
+      "mydiplomacy.scalacPluginClasspath",
+      "mydiplomacy.zincReportCachedProblems",
+      "mydiplomacy.zincIncrementalCompilation"
+    ],
+    "inputsHash": 1567065114
+  },
+  {
+    "label": "myrocketchip.scalaVersion",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": -255831975
+  },
+  {
+    "label": "macros.scalaVersion",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 1826957151
+  },
+  {
+    "label": "macros.upstreamCompileOutput",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1036709389
+  },
+  {
+    "label": "macros.sources",
+    "millis": 5,
+    "inputsHash": -2076391954
+  },
+  {
+    "label": "macros.generatedSources",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "macros.allSources",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "macros.sources",
+      "macros.generatedSources"
+    ],
+    "inputsHash": -103604122
+  },
+  {
+    "label": "macros.allSourceFiles",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "macros.allSources"
+    ],
+    "inputsHash": 1983986798
+  },
+  {
+    "label": "macros.compileIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "macros.platformSuffix",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "macros.transitiveCompileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion",
+      "macros.platformSuffix",
+      "macros.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "macros.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 1481191913
+  },
+  {
+    "label": "macros.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "macros.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": 1760931410
+  },
+  {
+    "label": "macros.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "macros.scalaOrganization",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "macros.scalaLibraryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaOrganization",
+      "macros.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "macros.mandatoryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "macros.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "macros.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "macros.transitiveIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion",
+      "macros.platformSuffix",
+      "macros.ivyDeps",
+      "macros.mandatoryIvyDeps"
+    ],
+    "inputsHash": -1403739759
+  },
+  {
+    "label": "macros.resolvedIvyDeps",
+    "millis": 12,
+    "cached": false,
+    "dependencies": [
+      "macros.transitiveCompileIvyDeps",
+      "macros.transitiveIvyDeps",
+      "macros.scalaVersion",
+      "macros.scalaOrganization"
+    ],
+    "inputsHash": 680778662
+  },
+  {
+    "label": "macros.transitiveCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -966756454
+  },
+  {
+    "label": "macros.compileResources",
+    "millis": 4,
+    "inputsHash": -463905029
+  },
+  {
+    "label": "macros.unmanagedClasspath",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "macros.localCompileClasspath",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "macros.compileResources",
+      "macros.unmanagedClasspath"
+    ],
+    "inputsHash": -646490181
+  },
+  {
+    "label": "macros.compileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "macros.resolvedIvyDeps",
+      "macros.transitiveCompileClasspath",
+      "macros.localCompileClasspath"
+    ],
+    "inputsHash": -1543482564
+  },
+  {
+    "label": "macros.javacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "macros.mandatoryScalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "macros.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 206326534
+  },
+  {
+    "label": "macros.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion",
+      "macros.platformSuffix",
+      "macros.scalacPluginIvyDeps",
+      "macros.scalaOrganization"
+    ],
+    "inputsHash": 515513279
+  },
+  {
+    "label": "macros.scalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 712963042
+  },
+  {
+    "label": "macros.allScalacOptions",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "macros.mandatoryScalacOptions",
+      "macros.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "macros.scalacOptions"
+    ],
+    "inputsHash": -116640771
+  },
+  {
+    "label": "macros.scalaCompilerClasspath",
+    "millis": 61,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion",
+      "macros.platformSuffix",
+      "macros.scalaOrganization",
+      "macros.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "macros.scalacPluginClasspath",
+    "millis": 18,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion",
+      "macros.platformSuffix",
+      "macros.scalacPluginIvyDeps",
+      "macros.scalaOrganization"
+    ],
+    "inputsHash": -147414809
+  },
+  {
+    "label": "macros.zincReportCachedProblems",
+    "millis": 5,
+    "inputsHash": -1220111781
+  },
+  {
+    "label": "macros.zincIncrementalCompilation",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "macros.compile",
+    "millis": 1577,
+    "cached": false,
+    "dependencies": [
+      "macros.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "macros.upstreamCompileOutput",
+      "macros.allSourceFiles",
+      "macros.compileClasspath",
+      "macros.javacOptions",
+      "macros.scalaOrganization",
+      "macros.allScalacOptions",
+      "macros.scalaCompilerClasspath",
+      "macros.scalacPluginClasspath",
+      "macros.zincReportCachedProblems",
+      "macros.zincIncrementalCompilation"
+    ],
+    "inputsHash": -578204365
+  },
+  {
+    "label": "myhardfloat.scalaVersion",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -2134419940
+  },
+  {
+    "label": "myhardfloat.upstreamCompileOutput",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1036709389
+  },
+  {
+    "label": "myhardfloat.sources",
+    "millis": 16,
+    "inputsHash": 1610805903
+  },
+  {
+    "label": "myhardfloat.generatedSources",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "myhardfloat.allSources",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.sources",
+      "myhardfloat.generatedSources"
+    ],
+    "inputsHash": 145545066
+  },
+  {
+    "label": "myhardfloat.allSourceFiles.super.mill.scalalib.ScalaModule.allSourceFiles",
+    "millis": 7,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.allSources"
+    ],
+    "inputsHash": 1960382691
+  },
+  {
+    "label": "myhardfloat.allSourceFiles",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.allSourceFiles.super.mill.scalalib.ScalaModule.allSourceFiles"
+    ],
+    "inputsHash": -471182216
+  },
+  {
+    "label": "myhardfloat.compileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "myhardfloat.platformSuffix",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "myhardfloat.transitiveCompileIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion",
+      "myhardfloat.platformSuffix",
+      "myhardfloat.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "myhardfloat.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 227274265
+  },
+  {
+    "label": "myhardfloat.ivyDeps.super.millbuild.^.playground.dependencies.berkeley-hardfloat.common.HasChisel.ivyDeps",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": 507013762
+  },
+  {
+    "label": "myhardfloat.ivyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.ivyDeps.super.millbuild.^.playground.dependencies.berkeley-hardfloat.common.HasChisel.ivyDeps"
+    ],
+    "inputsHash": -1228879499
+  },
+  {
+    "label": "myhardfloat.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "myhardfloat.scalaOrganization",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "myhardfloat.scalaLibraryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaOrganization",
+      "myhardfloat.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "myhardfloat.mandatoryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "myhardfloat.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "myhardfloat.transitiveIvyDeps",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion",
+      "myhardfloat.platformSuffix",
+      "myhardfloat.ivyDeps",
+      "myhardfloat.mandatoryIvyDeps"
+    ],
+    "inputsHash": 581331975
+  },
+  {
+    "label": "myhardfloat.resolvedIvyDeps",
+    "millis": 207,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.transitiveCompileIvyDeps",
+      "myhardfloat.transitiveIvyDeps",
+      "myhardfloat.scalaVersion",
+      "myhardfloat.scalaOrganization"
+    ],
+    "inputsHash": 1126183893
+  },
+  {
+    "label": "myhardfloat.transitiveCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -966756454
+  },
+  {
+    "label": "myhardfloat.compileResources",
+    "millis": 1,
+    "inputsHash": -1502452886
+  },
+  {
+    "label": "myhardfloat.unmanagedClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "myhardfloat.localCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.compileResources",
+      "myhardfloat.unmanagedClasspath"
+    ],
+    "inputsHash": -1146491776
+  },
+  {
+    "label": "myhardfloat.compileClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.resolvedIvyDeps",
+      "myhardfloat.transitiveCompileClasspath",
+      "myhardfloat.localCompileClasspath"
+    ],
+    "inputsHash": -1094977250
+  },
+  {
+    "label": "myhardfloat.javacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "myhardfloat.mandatoryScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "myhardfloat.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -55747551
+  },
+  {
+    "label": "myhardfloat.scalacPluginIvyDeps.super.millbuild.^.playground.dependencies.berkeley-hardfloat.common.HasChisel.scalacPluginIvyDeps",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": 223991946
+  },
+  {
+    "label": "myhardfloat.scalacPluginIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalacPluginIvyDeps.super.millbuild.^.playground.dependencies.berkeley-hardfloat.common.HasChisel.scalacPluginIvyDeps"
+    ],
+    "inputsHash": 1711409114
+  },
+  {
+    "label": "myhardfloat.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 13,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion",
+      "myhardfloat.platformSuffix",
+      "myhardfloat.scalacPluginIvyDeps",
+      "myhardfloat.scalaOrganization"
+    ],
+    "inputsHash": 514107649
+  },
+  {
+    "label": "myhardfloat.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1397579171
+  },
+  {
+    "label": "myhardfloat.chiselPluginJar",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 365901016
+  },
+  {
+    "label": "myhardfloat.scalacOptions",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+      "myhardfloat.chiselPluginJar"
+    ],
+    "inputsHash": 1930657530
+  },
+  {
+    "label": "myhardfloat.allScalacOptions",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.mandatoryScalacOptions",
+      "myhardfloat.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "myhardfloat.scalacOptions"
+    ],
+    "inputsHash": 1262777151
+  },
+  {
+    "label": "myhardfloat.scalaCompilerClasspath",
+    "millis": 33,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion",
+      "myhardfloat.platformSuffix",
+      "myhardfloat.scalaOrganization",
+      "myhardfloat.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "myhardfloat.scalacPluginClasspath.super.mill.scalalib.ScalaModule.scalacPluginClasspath",
+    "millis": 32,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion",
+      "myhardfloat.platformSuffix",
+      "myhardfloat.scalacPluginIvyDeps",
+      "myhardfloat.scalaOrganization"
+    ],
+    "inputsHash": -1627564784
+  },
+  {
+    "label": "myhardfloat.scalacPluginClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalacPluginClasspath.super.mill.scalalib.ScalaModule.scalacPluginClasspath",
+      "myhardfloat.chiselPluginJar"
+    ],
+    "inputsHash": 1767420361
+  },
+  {
+    "label": "myhardfloat.zincReportCachedProblems",
+    "millis": 1,
+    "inputsHash": -102536676
+  },
+  {
+    "label": "myhardfloat.zincIncrementalCompilation",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "myhardfloat.compile",
+    "millis": 8188,
+    "cached": false,
+    "dependencies": [
+      "myhardfloat.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "myhardfloat.upstreamCompileOutput",
+      "myhardfloat.allSourceFiles",
+      "myhardfloat.compileClasspath",
+      "myhardfloat.javacOptions",
+      "myhardfloat.scalaOrganization",
+      "myhardfloat.allScalacOptions",
+      "myhardfloat.scalaCompilerClasspath",
+      "myhardfloat.scalacPluginClasspath",
+      "myhardfloat.zincReportCachedProblems",
+      "myhardfloat.zincIncrementalCompilation"
+    ],
+    "inputsHash": 735335284
+  },
+  {
+    "label": "myrocketchip.upstreamCompileOutput",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "macros.compile",
+      "myhardfloat.compile",
+      "mydiplomacy.compile",
+      "mycde.compile"
+    ],
+    "inputsHash": 1164371116
+  },
+  {
+    "label": "myrocketchip.sources",
+    "millis": 192,
+    "inputsHash": 153243084
+  },
+  {
+    "label": "myrocketchip.generatedSources",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "myrocketchip.allSources",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.sources",
+      "myrocketchip.generatedSources"
+    ],
+    "inputsHash": -1157574976
+  },
+  {
+    "label": "myrocketchip.allSourceFiles",
+    "millis": 33,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.allSources"
+    ],
+    "inputsHash": -378930516
+  },
+  {
+    "label": "myrocketchip.compileIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "myrocketchip.platformSuffix",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "myrocketchip.transitiveCompileIvyDeps",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion",
+      "myrocketchip.platformSuffix",
+      "myrocketchip.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "myrocketchip.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1341972696
+  },
+  {
+    "label": "myrocketchip.ivyDeps.super.millbuild.^.playground.dependencies.rocket-chip.common.HasChisel.ivyDeps",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": -1062233199
+  },
+  {
+    "label": "myrocketchip.ivyDeps.super.millbuild.^.playground.dependencies.rocket-chip.common.RocketChipModule.ivyDeps",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.ivyDeps.super.millbuild.^.playground.dependencies.rocket-chip.common.HasChisel.ivyDeps"
+    ],
+    "inputsHash": 1496840836
+  },
+  {
+    "label": "myrocketchip.ivyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.ivyDeps.super.millbuild.^.playground.dependencies.rocket-chip.common.RocketChipModule.ivyDeps"
+    ],
+    "inputsHash": 837809435
+  },
+  {
+    "label": "myrocketchip.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "myrocketchip.scalaOrganization",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "myrocketchip.scalaLibraryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaOrganization",
+      "myrocketchip.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "myrocketchip.mandatoryIvyDeps",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "myrocketchip.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "myrocketchip.transitiveIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion",
+      "myrocketchip.platformSuffix",
+      "macros.transitiveIvyDeps",
+      "myhardfloat.transitiveIvyDeps",
+      "mydiplomacy.transitiveIvyDeps",
+      "myrocketchip.ivyDeps",
+      "myrocketchip.mandatoryIvyDeps"
+    ],
+    "inputsHash": -1134814769
+  },
+  {
+    "label": "myrocketchip.resolvedIvyDeps",
+    "millis": 277,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.transitiveCompileIvyDeps",
+      "myrocketchip.transitiveIvyDeps",
+      "myrocketchip.scalaVersion",
+      "myrocketchip.scalaOrganization"
+    ],
+    "inputsHash": 834695566
+  },
+  {
+    "label": "myrocketchip.transitiveCompileClasspath",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "macros.localCompileClasspath",
+      "macros.compile",
+      "myhardfloat.localCompileClasspath",
+      "myhardfloat.compile",
+      "mydiplomacy.localCompileClasspath",
+      "mydiplomacy.compile",
+      "mycde.localCompileClasspath",
+      "mycde.compile"
+    ],
+    "inputsHash": 211175822
+  },
+  {
+    "label": "myrocketchip.compileResources",
+    "millis": 4,
+    "inputsHash": -1039409128
+  },
+  {
+    "label": "myrocketchip.unmanagedClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "myrocketchip.localCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.compileResources",
+      "myrocketchip.unmanagedClasspath"
+    ],
+    "inputsHash": 1724265470
+  },
+  {
+    "label": "myrocketchip.compileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.resolvedIvyDeps",
+      "myrocketchip.transitiveCompileClasspath",
+      "myrocketchip.localCompileClasspath"
+    ],
+    "inputsHash": -1894416900
+  },
+  {
+    "label": "myrocketchip.javacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "myrocketchip.mandatoryScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "myrocketchip.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1698831493
+  },
+  {
+    "label": "myrocketchip.scalacPluginIvyDeps.super.millbuild.^.playground.dependencies.rocket-chip.common.HasChisel.scalacPluginIvyDeps",
+    "millis": 7,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -1419091996
+  },
+  {
+    "label": "myrocketchip.scalacPluginIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalacPluginIvyDeps.super.millbuild.^.playground.dependencies.rocket-chip.common.HasChisel.scalacPluginIvyDeps"
+    ],
+    "inputsHash": 68325172
+  },
+  {
+    "label": "myrocketchip.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 11,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion",
+      "myrocketchip.platformSuffix",
+      "myrocketchip.scalacPluginIvyDeps",
+      "myrocketchip.scalaOrganization"
+    ],
+    "inputsHash": 514107649
+  },
+  {
+    "label": "myrocketchip.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 1064122541
+  },
+  {
+    "label": "myrocketchip.chiselPluginJar",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -306521998
+  },
+  {
+    "label": "myrocketchip.scalacOptions",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalacOptions.super.mill.scalalib.ScalaModule.scalacOptions",
+      "myrocketchip.chiselPluginJar"
+    ],
+    "inputsHash": 97391946
+  },
+  {
+    "label": "myrocketchip.allScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.mandatoryScalacOptions",
+      "myrocketchip.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "myrocketchip.scalacOptions"
+    ],
+    "inputsHash": 1262777151
+  },
+  {
+    "label": "myrocketchip.scalaCompilerClasspath",
+    "millis": 26,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion",
+      "myrocketchip.platformSuffix",
+      "myrocketchip.scalaOrganization",
+      "myrocketchip.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "myrocketchip.scalacPluginClasspath.super.mill.scalalib.ScalaModule.scalacPluginClasspath",
+    "millis": 31,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion",
+      "myrocketchip.platformSuffix",
+      "myrocketchip.scalacPluginIvyDeps",
+      "myrocketchip.scalaOrganization"
+    ],
+    "inputsHash": -841570391
+  },
+  {
+    "label": "myrocketchip.scalacPluginClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalacPluginClasspath.super.mill.scalalib.ScalaModule.scalacPluginClasspath",
+      "myrocketchip.chiselPluginJar"
+    ],
+    "inputsHash": -1741552542
+  },
+  {
+    "label": "myrocketchip.zincReportCachedProblems",
+    "millis": 2,
+    "inputsHash": 217988177
+  },
+  {
+    "label": "myrocketchip.zincIncrementalCompilation",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "myrocketchip.compile",
+    "millis": 61507,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "myrocketchip.upstreamCompileOutput",
+      "myrocketchip.allSourceFiles",
+      "myrocketchip.compileClasspath",
+      "myrocketchip.javacOptions",
+      "myrocketchip.scalaOrganization",
+      "myrocketchip.allScalacOptions",
+      "myrocketchip.scalaCompilerClasspath",
+      "myrocketchip.scalacPluginClasspath",
+      "myrocketchip.zincReportCachedProblems",
+      "myrocketchip.zincIncrementalCompilation"
+    ],
+    "inputsHash": 360811656
+  },
+  {
+    "label": "header.scalaVersion",
+    "millis": 5,
+    "cached": false,
+    "inputsHash": 1539889029
+  },
+  {
+    "label": "emitrtl.scalaVersion",
+    "millis": 6,
+    "cached": false,
+    "inputsHash": 1539889029
+  },
+  {
+    "label": "chipyardAnnotations.scalaVersion",
+    "millis": 6,
+    "cached": false,
+    "inputsHash": 1539889029
+  },
+  {
+    "label": "chipyardAnnotations.upstreamCompileOutput",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.compile",
+      "mycde.compile",
+      "mydiplomacy.compile",
+      "myhardfloat.compile",
+      "macros.compile"
+    ],
+    "inputsHash": 1580890223
+  },
+  {
+    "label": "chipyardAnnotations.sources",
+    "millis": 40,
+    "inputsHash": 1810392641
+  },
+  {
+    "label": "chipyardAnnotations.generatedSources",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "chipyardAnnotations.allSources",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.sources",
+      "chipyardAnnotations.generatedSources"
+    ],
+    "inputsHash": -1303888812
+  },
+  {
+    "label": "chipyardAnnotations.allSourceFiles",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.allSources"
+    ],
+    "inputsHash": -2037921580
+  },
+  {
+    "label": "chipyardAnnotations.compileIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "chipyardAnnotations.platformSuffix",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "chipyardAnnotations.transitiveCompileIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion",
+      "chipyardAnnotations.platformSuffix",
+      "chipyardAnnotations.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "chipyardAnnotations.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1581094842
+  },
+  {
+    "label": "chipyardAnnotations.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": -1301355345
+  },
+  {
+    "label": "chipyardAnnotations.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "chipyardAnnotations.scalaOrganization",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "chipyardAnnotations.scalaLibraryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaOrganization",
+      "chipyardAnnotations.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "chipyardAnnotations.mandatoryIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "chipyardAnnotations.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "chipyardAnnotations.transitiveIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion",
+      "chipyardAnnotations.platformSuffix",
+      "myrocketchip.transitiveIvyDeps",
+      "chipyardAnnotations.ivyDeps",
+      "chipyardAnnotations.mandatoryIvyDeps"
+    ],
+    "inputsHash": -1699713119
+  },
+  {
+    "label": "chipyardAnnotations.resolvedIvyDeps",
+    "millis": 297,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.transitiveCompileIvyDeps",
+      "chipyardAnnotations.transitiveIvyDeps",
+      "chipyardAnnotations.scalaVersion",
+      "chipyardAnnotations.scalaOrganization"
+    ],
+    "inputsHash": 834695566
+  },
+  {
+    "label": "chipyardAnnotations.transitiveCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.localCompileClasspath",
+      "myrocketchip.compile",
+      "mycde.localCompileClasspath",
+      "mycde.compile",
+      "mydiplomacy.localCompileClasspath",
+      "mydiplomacy.compile",
+      "myhardfloat.localCompileClasspath",
+      "myhardfloat.compile",
+      "macros.localCompileClasspath",
+      "macros.compile"
+    ],
+    "inputsHash": -2132824593
+  },
+  {
+    "label": "chipyardAnnotations.compileResources",
+    "millis": 2,
+    "inputsHash": 2090006442
+  },
+  {
+    "label": "chipyardAnnotations.unmanagedClasspath",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "chipyardAnnotations.localCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.compileResources",
+      "chipyardAnnotations.unmanagedClasspath"
+    ],
+    "inputsHash": 787161634
+  },
+  {
+    "label": "chipyardAnnotations.compileClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.resolvedIvyDeps",
+      "chipyardAnnotations.transitiveCompileClasspath",
+      "chipyardAnnotations.localCompileClasspath"
+    ],
+    "inputsHash": -108322632
+  },
+  {
+    "label": "chipyardAnnotations.javacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "chipyardAnnotations.mandatoryScalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "chipyardAnnotations.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1205329374
+  },
+  {
+    "label": "chipyardAnnotations.scalacPluginIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -925589877
+  },
+  {
+    "label": "chipyardAnnotations.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 10,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion",
+      "chipyardAnnotations.platformSuffix",
+      "chipyardAnnotations.scalacPluginIvyDeps",
+      "chipyardAnnotations.scalaOrganization"
+    ],
+    "inputsHash": 514107649
+  },
+  {
+    "label": "chipyardAnnotations.scalacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 712963042
+  },
+  {
+    "label": "chipyardAnnotations.allScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.mandatoryScalacOptions",
+      "chipyardAnnotations.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "chipyardAnnotations.scalacOptions"
+    ],
+    "inputsHash": 1262777151
+  },
+  {
+    "label": "chipyardAnnotations.scalaCompilerClasspath",
+    "millis": 26,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion",
+      "chipyardAnnotations.platformSuffix",
+      "chipyardAnnotations.scalaOrganization",
+      "chipyardAnnotations.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "chipyardAnnotations.scalacPluginClasspath",
+    "millis": 97,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion",
+      "chipyardAnnotations.platformSuffix",
+      "chipyardAnnotations.scalacPluginIvyDeps",
+      "chipyardAnnotations.scalaOrganization"
+    ],
+    "inputsHash": -148820439
+  },
+  {
+    "label": "chipyardAnnotations.zincReportCachedProblems",
+    "millis": 6,
+    "inputsHash": -678283736
+  },
+  {
+    "label": "chipyardAnnotations.zincIncrementalCompilation",
+    "millis": 6,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "chipyardAnnotations.compile",
+    "millis": 1660,
+    "cached": false,
+    "dependencies": [
+      "chipyardAnnotations.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "chipyardAnnotations.upstreamCompileOutput",
+      "chipyardAnnotations.allSourceFiles",
+      "chipyardAnnotations.compileClasspath",
+      "chipyardAnnotations.javacOptions",
+      "chipyardAnnotations.scalaOrganization",
+      "chipyardAnnotations.allScalacOptions",
+      "chipyardAnnotations.scalaCompilerClasspath",
+      "chipyardAnnotations.scalacPluginClasspath",
+      "chipyardAnnotations.zincReportCachedProblems",
+      "chipyardAnnotations.zincIncrementalCompilation"
+    ],
+    "inputsHash": -355907153
+  },
+  {
+    "label": "chipyardTapeout.scalaVersion",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 1181745861
+  },
+  {
+    "label": "chipyardTapeout.upstreamCompileOutput",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1036709389
+  },
+  {
+    "label": "chipyardTapeout.sources",
+    "millis": 14,
+    "inputsHash": -1056574328
+  },
+  {
+    "label": "chipyardTapeout.generatedSources",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "chipyardTapeout.allSources",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.sources",
+      "chipyardTapeout.generatedSources"
+    ],
+    "inputsHash": -641859
+  },
+  {
+    "label": "chipyardTapeout.allSourceFiles",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.allSources"
+    ],
+    "inputsHash": 730918311
+  },
+  {
+    "label": "chipyardTapeout.compileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "chipyardTapeout.platformSuffix",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "chipyardTapeout.transitiveCompileIvyDeps",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion",
+      "chipyardTapeout.platformSuffix",
+      "chipyardTapeout.compileIvyDeps"
+    ],
+    "inputsHash": -203773835
+  },
+  {
+    "label": "chipyardTapeout.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1754058131
+  },
+  {
+    "label": "chipyardTapeout.ivyDeps.super.millbuild.^.playground.builddefs.CommonModule.ivyDeps",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": 2033797628
+  },
+  {
+    "label": "chipyardTapeout.ivyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.ivyDeps.super.millbuild.^.playground.builddefs.CommonModule.ivyDeps"
+    ],
+    "inputsHash": 1487534246
+  },
+  {
+    "label": "chipyardTapeout.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 6,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "chipyardTapeout.scalaOrganization",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion"
+    ],
+    "inputsHash": 867543867
+  },
+  {
+    "label": "chipyardTapeout.scalaLibraryIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaOrganization",
+      "chipyardTapeout.scalaVersion"
+    ],
+    "inputsHash": 2001349680
+  },
+  {
+    "label": "chipyardTapeout.mandatoryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "chipyardTapeout.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 364416402
+  },
+  {
+    "label": "chipyardTapeout.transitiveIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion",
+      "chipyardTapeout.platformSuffix",
+      "chipyardTapeout.ivyDeps",
+      "chipyardTapeout.mandatoryIvyDeps"
+    ],
+    "inputsHash": -1308438236
+  },
+  {
+    "label": "chipyardTapeout.resolvedIvyDeps",
+    "millis": 182,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.transitiveCompileIvyDeps",
+      "chipyardTapeout.transitiveIvyDeps",
+      "chipyardTapeout.scalaVersion",
+      "chipyardTapeout.scalaOrganization"
+    ],
+    "inputsHash": 229082584
+  },
+  {
+    "label": "chipyardTapeout.transitiveCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -966756454
+  },
+  {
+    "label": "chipyardTapeout.compileResources",
+    "millis": 2,
+    "inputsHash": 1081981063
+  },
+  {
+    "label": "chipyardTapeout.unmanagedClasspath",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "chipyardTapeout.localCompileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.compileResources",
+      "chipyardTapeout.unmanagedClasspath"
+    ],
+    "inputsHash": -2035973918
+  },
+  {
+    "label": "chipyardTapeout.compileClasspath",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.resolvedIvyDeps",
+      "chipyardTapeout.transitiveCompileClasspath",
+      "chipyardTapeout.localCompileClasspath"
+    ],
+    "inputsHash": 1573992283
+  },
+  {
+    "label": "chipyardTapeout.javacOptions",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "chipyardTapeout.mandatoryScalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "chipyardTapeout.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1205329374
+  },
+  {
+    "label": "chipyardTapeout.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -925589877
+  },
+  {
+    "label": "chipyardTapeout.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 12,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion",
+      "chipyardTapeout.platformSuffix",
+      "chipyardTapeout.scalacPluginIvyDeps",
+      "chipyardTapeout.scalaOrganization"
+    ],
+    "inputsHash": -512594571
+  },
+  {
+    "label": "chipyardTapeout.scalacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 712963042
+  },
+  {
+    "label": "chipyardTapeout.allScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.mandatoryScalacOptions",
+      "chipyardTapeout.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "chipyardTapeout.scalacOptions"
+    ],
+    "inputsHash": 1139127753
+  },
+  {
+    "label": "chipyardTapeout.scalaCompilerClasspath",
+    "millis": 24,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion",
+      "chipyardTapeout.platformSuffix",
+      "chipyardTapeout.scalaOrganization",
+      "chipyardTapeout.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -1634015899
+  },
+  {
+    "label": "chipyardTapeout.scalacPluginClasspath",
+    "millis": 78,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion",
+      "chipyardTapeout.platformSuffix",
+      "chipyardTapeout.scalacPluginIvyDeps",
+      "chipyardTapeout.scalaOrganization"
+    ],
+    "inputsHash": -1175522659
+  },
+  {
+    "label": "chipyardTapeout.zincReportCachedProblems",
+    "millis": 2,
+    "inputsHash": 2044870902
+  },
+  {
+    "label": "chipyardTapeout.zincIncrementalCompilation",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "chipyardTapeout.compile",
+    "millis": 14105,
+    "cached": false,
+    "dependencies": [
+      "chipyardTapeout.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "chipyardTapeout.upstreamCompileOutput",
+      "chipyardTapeout.allSourceFiles",
+      "chipyardTapeout.compileClasspath",
+      "chipyardTapeout.javacOptions",
+      "chipyardTapeout.scalaOrganization",
+      "chipyardTapeout.allScalacOptions",
+      "chipyardTapeout.scalaCompilerClasspath",
+      "chipyardTapeout.scalacPluginClasspath",
+      "chipyardTapeout.zincReportCachedProblems",
+      "chipyardTapeout.zincIncrementalCompilation"
+    ],
+    "inputsHash": -1151638299
+  },
+  {
+    "label": "emitrtl.upstreamCompileOutput",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.compile",
+      "mycde.compile",
+      "mydiplomacy.compile",
+      "myhardfloat.compile",
+      "macros.compile",
+      "chipyardAnnotations.compile",
+      "chipyardTapeout.compile"
+    ],
+    "inputsHash": -1296702832
+  },
+  {
+    "label": "emitrtl.sources",
+    "millis": 5,
+    "inputsHash": -887964091
+  },
+  {
+    "label": "emitrtl.generatedSources",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "emitrtl.allSources",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.sources",
+      "emitrtl.generatedSources"
+    ],
+    "inputsHash": 2062661204
+  },
+  {
+    "label": "emitrtl.allSourceFiles",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.allSources"
+    ],
+    "inputsHash": 87363830
+  },
+  {
+    "label": "emitrtl.compileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "emitrtl.platformSuffix",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "emitrtl.transitiveCompileIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion",
+      "emitrtl.platformSuffix",
+      "emitrtl.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "emitrtl.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": -1581094842
+  },
+  {
+    "label": "emitrtl.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": -1301355345
+  },
+  {
+    "label": "emitrtl.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "emitrtl.scalaOrganization",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "emitrtl.scalaLibraryIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaOrganization",
+      "emitrtl.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "emitrtl.mandatoryIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "emitrtl.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "emitrtl.transitiveIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion",
+      "emitrtl.platformSuffix",
+      "myrocketchip.transitiveIvyDeps",
+      "chipyardAnnotations.transitiveIvyDeps",
+      "chipyardTapeout.transitiveIvyDeps",
+      "emitrtl.ivyDeps",
+      "emitrtl.mandatoryIvyDeps"
+    ],
+    "inputsHash": -707651593
+  },
+  {
+    "label": "emitrtl.resolvedIvyDeps",
+    "millis": 256,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.transitiveCompileIvyDeps",
+      "emitrtl.transitiveIvyDeps",
+      "emitrtl.scalaVersion",
+      "emitrtl.scalaOrganization"
+    ],
+    "inputsHash": -1076253065
+  },
+  {
+    "label": "emitrtl.transitiveCompileClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "myrocketchip.localCompileClasspath",
+      "myrocketchip.compile",
+      "mycde.localCompileClasspath",
+      "mycde.compile",
+      "mydiplomacy.localCompileClasspath",
+      "mydiplomacy.compile",
+      "myhardfloat.localCompileClasspath",
+      "myhardfloat.compile",
+      "macros.localCompileClasspath",
+      "macros.compile",
+      "chipyardAnnotations.localCompileClasspath",
+      "chipyardAnnotations.compile",
+      "chipyardTapeout.localCompileClasspath",
+      "chipyardTapeout.compile"
+    ],
+    "inputsHash": -1619549745
+  },
+  {
+    "label": "emitrtl.compileResources",
+    "millis": 3,
+    "inputsHash": -294002636
+  },
+  {
+    "label": "emitrtl.unmanagedClasspath",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "emitrtl.localCompileClasspath",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.compileResources",
+      "emitrtl.unmanagedClasspath"
+    ],
+    "inputsHash": -1014574174
+  },
+  {
+    "label": "emitrtl.compileClasspath",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.resolvedIvyDeps",
+      "emitrtl.transitiveCompileClasspath",
+      "emitrtl.localCompileClasspath"
+    ],
+    "inputsHash": -180606625
+  },
+  {
+    "label": "emitrtl.javacOptions",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "emitrtl.mandatoryScalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "emitrtl.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": -1205329374
+  },
+  {
+    "label": "emitrtl.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -925589877
+  },
+  {
+    "label": "emitrtl.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 12,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion",
+      "emitrtl.platformSuffix",
+      "emitrtl.scalacPluginIvyDeps",
+      "emitrtl.scalaOrganization"
+    ],
+    "inputsHash": 514107649
+  },
+  {
+    "label": "emitrtl.scalacOptions",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 712963042
+  },
+  {
+    "label": "emitrtl.allScalacOptions",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.mandatoryScalacOptions",
+      "emitrtl.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "emitrtl.scalacOptions"
+    ],
+    "inputsHash": 1262777151
+  },
+  {
+    "label": "emitrtl.scalaCompilerClasspath",
+    "millis": 24,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion",
+      "emitrtl.platformSuffix",
+      "emitrtl.scalaOrganization",
+      "emitrtl.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "emitrtl.scalacPluginClasspath",
+    "millis": 27,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion",
+      "emitrtl.platformSuffix",
+      "emitrtl.scalacPluginIvyDeps",
+      "emitrtl.scalaOrganization"
+    ],
+    "inputsHash": -148820439
+  },
+  {
+    "label": "emitrtl.zincReportCachedProblems",
+    "millis": 2,
+    "inputsHash": 456890561
+  },
+  {
+    "label": "emitrtl.zincIncrementalCompilation",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "emitrtl.compile",
+    "millis": 42,
+    "cached": false,
+    "dependencies": [
+      "emitrtl.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "emitrtl.upstreamCompileOutput",
+      "emitrtl.allSourceFiles",
+      "emitrtl.compileClasspath",
+      "emitrtl.javacOptions",
+      "emitrtl.scalaOrganization",
+      "emitrtl.allScalacOptions",
+      "emitrtl.scalaCompilerClasspath",
+      "emitrtl.scalacPluginClasspath",
+      "emitrtl.zincReportCachedProblems",
+      "emitrtl.zincIncrementalCompilation"
+    ],
+    "inputsHash": 1054484140
+  },
+  {
+    "label": "header.upstreamCompileOutput",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.compile",
+      "mycde.compile",
+      "myrocketchip.compile",
+      "myhardfloat.compile",
+      "macros.compile",
+      "emitrtl.compile",
+      "chipyardTapeout.compile",
+      "chipyardAnnotations.compile"
+    ],
+    "inputsHash": 2021533441
+  },
+  {
+    "label": "header.sources",
+    "millis": 1,
+    "inputsHash": -1590156652
+  },
+  {
+    "label": "header.generatedSources",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1671018066
+  },
+  {
+    "label": "header.allSources",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "header.sources",
+      "header.generatedSources"
+    ],
+    "inputsHash": 1437385022
+  },
+  {
+    "label": "header.allSourceFiles",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "header.allSources"
+    ],
+    "inputsHash": -545382437
+  },
+  {
+    "label": "header.compileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 344203272
+  },
+  {
+    "label": "header.platformSuffix",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1859238699
+  },
+  {
+    "label": "header.transitiveCompileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion",
+      "header.platformSuffix",
+      "header.compileIvyDeps"
+    ],
+    "inputsHash": -416257451
+  },
+  {
+    "label": "header.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 6,
+    "cached": false,
+    "inputsHash": -1581094842
+  },
+  {
+    "label": "header.ivyDeps",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "header.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": -1301355345
+  },
+  {
+    "label": "header.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 7,
+    "cached": false,
+    "inputsHash": -1072835414
+  },
+  {
+    "label": "header.scalaOrganization",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion"
+    ],
+    "inputsHash": 466089622
+  },
+  {
+    "label": "header.scalaLibraryIvyDeps",
+    "millis": 10,
+    "cached": false,
+    "dependencies": [
+      "header.scalaOrganization",
+      "header.scalaVersion"
+    ],
+    "inputsHash": -1190982091
+  },
+  {
+    "label": "header.mandatoryIvyDeps",
+    "millis": 6,
+    "cached": false,
+    "dependencies": [
+      "header.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "header.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 1640319168
+  },
+  {
+    "label": "header.transitiveIvyDeps",
+    "millis": 7,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion",
+      "header.platformSuffix",
+      "mydiplomacy.transitiveIvyDeps",
+      "mycde.transitiveIvyDeps",
+      "myrocketchip.transitiveIvyDeps",
+      "emitrtl.transitiveIvyDeps",
+      "header.ivyDeps",
+      "header.mandatoryIvyDeps"
+    ],
+    "inputsHash": -477453425
+  },
+  {
+    "label": "header.resolvedIvyDeps",
+    "millis": 346,
+    "cached": false,
+    "dependencies": [
+      "header.transitiveCompileIvyDeps",
+      "header.transitiveIvyDeps",
+      "header.scalaVersion",
+      "header.scalaOrganization"
+    ],
+    "inputsHash": -1076253065
+  },
+  {
+    "label": "header.transitiveCompileClasspath",
+    "millis": 11,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.localCompileClasspath",
+      "mydiplomacy.compile",
+      "mycde.localCompileClasspath",
+      "mycde.compile",
+      "myrocketchip.localCompileClasspath",
+      "myrocketchip.compile",
+      "myhardfloat.localCompileClasspath",
+      "myhardfloat.compile",
+      "macros.localCompileClasspath",
+      "macros.compile",
+      "emitrtl.localCompileClasspath",
+      "emitrtl.compile",
+      "chipyardTapeout.localCompileClasspath",
+      "chipyardTapeout.compile",
+      "chipyardAnnotations.localCompileClasspath",
+      "chipyardAnnotations.compile"
+    ],
+    "inputsHash": 321270137
+  },
+  {
+    "label": "header.compileResources",
+    "millis": 6,
+    "inputsHash": -974317696
+  },
+  {
+    "label": "header.unmanagedClasspath",
+    "millis": 7,
+    "cached": false,
+    "inputsHash": 522877125
+  },
+  {
+    "label": "header.localCompileClasspath",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "header.compileResources",
+      "header.unmanagedClasspath"
+    ],
+    "inputsHash": 1460103868
+  },
+  {
+    "label": "header.compileClasspath",
+    "millis": 32,
+    "cached": false,
+    "dependencies": [
+      "header.resolvedIvyDeps",
+      "header.transitiveCompileClasspath",
+      "header.localCompileClasspath"
+    ],
+    "inputsHash": 557884462
+  },
+  {
+    "label": "header.javacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": -1188471646
+  },
+  {
+    "label": "header.mandatoryScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1703789461
+  },
+  {
+    "label": "header.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -1205329374
+  },
+  {
+    "label": "header.scalacPluginIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "header.scalacPluginIvyDeps.super.mill.scalalib.ScalaModule.scalacPluginIvyDeps"
+    ],
+    "inputsHash": -925589877
+  },
+  {
+    "label": "header.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 11,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion",
+      "header.platformSuffix",
+      "header.scalacPluginIvyDeps",
+      "header.scalaOrganization"
+    ],
+    "inputsHash": 514107649
+  },
+  {
+    "label": "header.scalacOptions",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 712963042
+  },
+  {
+    "label": "header.allScalacOptions",
+    "millis": 1,
+    "cached": false,
+    "dependencies": [
+      "header.mandatoryScalacOptions",
+      "header.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "header.scalacOptions"
+    ],
+    "inputsHash": 1262777151
+  },
+  {
+    "label": "header.scalaCompilerClasspath",
+    "millis": 20,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion",
+      "header.platformSuffix",
+      "header.scalaOrganization",
+      "header.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -586942151
+  },
+  {
+    "label": "header.scalacPluginClasspath",
+    "millis": 24,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion",
+      "header.platformSuffix",
+      "header.scalacPluginIvyDeps",
+      "header.scalaOrganization"
+    ],
+    "inputsHash": -148820439
+  },
+  {
+    "label": "header.zincReportCachedProblems",
+    "millis": 2,
+    "inputsHash": 16793274
+  },
+  {
+    "label": "header.zincIncrementalCompilation",
+    "millis": 1,
+    "cached": false,
+    "inputsHash": 1813102589
+  },
+  {
+    "label": "header.compile",
+    "millis": 33,
+    "cached": false,
+    "dependencies": [
+      "header.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "header.upstreamCompileOutput",
+      "header.allSourceFiles",
+      "header.compileClasspath",
+      "header.javacOptions",
+      "header.scalaOrganization",
+      "header.allScalacOptions",
+      "header.scalaCompilerClasspath",
+      "header.scalacPluginClasspath",
+      "header.zincReportCachedProblems",
+      "header.zincIncrementalCompilation"
+    ],
+    "inputsHash": -608537054
+  },
+  {
+    "label": "mmu.upstreamCompileOutput",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.compile",
+      "mycde.compile",
+      "myrocketchip.compile",
+      "myhardfloat.compile",
+      "macros.compile",
+      "header.compile",
+      "chipyardTapeout.compile",
+      "chipyardAnnotations.compile",
+      "emitrtl.compile"
+    ],
+    "inputsHash": -1130584395
+  },
+  {
+    "label": "mmu.generatedSources",
+    "millis": 3,
+    "cached": false,
+    "inputsHash": 1487378088
+  },
+  {
+    "label": "mmu.allSources",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mmu.sources",
+      "mmu.generatedSources"
+    ],
+    "inputsHash": 901140980
+  },
+  {
+    "label": "mmu.allSourceFiles",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mmu.allSources"
+    ],
+    "inputsHash": -382583437
+  },
+  {
+    "label": "mmu.compileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -792367870
+  },
+  {
+    "label": "mmu.transitiveCompileIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mmu.compileIvyDeps"
+    ],
+    "inputsHash": -1552828593
+  },
+  {
+    "label": "mmu.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 1577301312
+  },
+  {
+    "label": "mmu.ivyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mmu.ivyDeps.super.mill.scalalib.JavaModule.ivyDeps"
+    ],
+    "inputsHash": 1857040809
+  },
+  {
+    "label": "mmu.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 4,
+    "cached": false,
+    "inputsHash": 2085560740
+  },
+  {
+    "label": "mmu.scalaLibraryIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaOrganization",
+      "mmu.scalaVersion"
+    ],
+    "inputsHash": 1967414063
+  },
+  {
+    "label": "mmu.mandatoryIvyDeps",
+    "millis": 2,
+    "cached": false,
+    "dependencies": [
+      "mmu.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "mmu.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 503748026
+  },
+  {
+    "label": "mmu.transitiveIvyDeps",
+    "millis": 3,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mydiplomacy.transitiveIvyDeps",
+      "mycde.transitiveIvyDeps",
+      "myrocketchip.transitiveIvyDeps",
+      "header.transitiveIvyDeps",
+      "emitrtl.transitiveIvyDeps",
+      "chipyardAnnotations.transitiveIvyDeps",
+      "chipyardTapeout.transitiveIvyDeps",
+      "mmu.ivyDeps",
+      "mmu.mandatoryIvyDeps"
+    ],
+    "inputsHash": 288952000
+  },
+  {
+    "label": "mmu.resolvedIvyDeps",
+    "millis": 224,
+    "cached": false,
+    "dependencies": [
+      "mmu.transitiveCompileIvyDeps",
+      "mmu.transitiveIvyDeps",
+      "mmu.scalaVersion",
+      "mmu.scalaOrganization"
+    ],
+    "inputsHash": 2082143089
+  },
+  {
+    "label": "mmu.transitiveCompileClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "mydiplomacy.localCompileClasspath",
+      "mydiplomacy.compile",
+      "mycde.localCompileClasspath",
+      "mycde.compile",
+      "myrocketchip.localCompileClasspath",
+      "myrocketchip.compile",
+      "myhardfloat.localCompileClasspath",
+      "myhardfloat.compile",
+      "macros.localCompileClasspath",
+      "macros.compile",
+      "header.localCompileClasspath",
+      "header.compile",
+      "chipyardTapeout.localCompileClasspath",
+      "chipyardTapeout.compile",
+      "chipyardAnnotations.localCompileClasspath",
+      "chipyardAnnotations.compile",
+      "emitrtl.localCompileClasspath",
+      "emitrtl.compile"
+    ],
+    "inputsHash": -1312477943
+  },
+  {
+    "label": "mmu.compileResources",
+    "millis": 2,
+    "inputsHash": -2142319762
+  },
+  {
+    "label": "mmu.unmanagedClasspath",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": -613694017
+  },
+  {
+    "label": "mmu.localCompileClasspath",
+    "millis": 4,
+    "cached": false,
+    "dependencies": [
+      "mmu.compileResources",
+      "mmu.unmanagedClasspath"
+    ],
+    "inputsHash": 1046129874
+  },
+  {
+    "label": "mmu.compileClasspath",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mmu.resolvedIvyDeps",
+      "mmu.transitiveCompileClasspath",
+      "mmu.localCompileClasspath"
+    ],
+    "inputsHash": 446751576
+  },
+  {
+    "label": "mmu.semanticDbJavaPluginIvyDeps.super.mill.scalalib.SemanticDbJavaModule.semanticDbJavaPluginIvyDeps",
+    "millis": 5,
+    "cached": false,
+    "dependencies": [
+      "mmu.semanticDbJavaVersion"
+    ],
+    "inputsHash": -1854149831
+  },
+  {
+    "label": "mmu.resolvedSemanticDbJavaPluginIvyDeps",
+    "millis": 1097,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mmu.semanticDbJavaPluginIvyDeps.super.mill.scalalib.SemanticDbJavaModule.semanticDbJavaPluginIvyDeps",
+      "mmu.scalaOrganization"
+    ],
+    "inputsHash": 1372870968
+  },
+  {
+    "label": "mmu.scalaCompilerClasspath",
+    "millis": 14,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mmu.scalaOrganization",
+      "mmu.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": -1723513293
+  },
+  {
+    "label": "mmu.semanticDbPluginClasspath",
+    "millis": 18,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.platformSuffix",
+      "mmu.scalacPluginIvyDeps",
+      "mmu.semanticDbPluginIvyDeps",
+      "mmu.scalaOrganization"
+    ],
+    "inputsHash": -1411867859
+  },
+  {
+    "label": "mmu.zincReportCachedProblems",
+    "millis": 2,
+    "inputsHash": -492603675
+  },
+  {
+    "label": "mmu.zincIncrementalCompilation",
+    "millis": 2,
+    "cached": false,
+    "inputsHash": 676531447
+  },
+  {
+    "label": "mmu.semanticDbData",
+    "millis": 5960,
+    "cached": false,
+    "dependencies": [
+      "mmu.scalaVersion",
+      "mmu.allScalacOptions",
+      "mmu.semanticDbEnablePluginScalacOptions",
+      "mmu.javacOptions",
+      "mmu.semanticDbJavaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "mmu.upstreamCompileOutput",
+      "mmu.allSourceFiles",
+      "mmu.compileClasspath",
+      "mmu.resolvedSemanticDbJavaPluginIvyDeps",
+      "mmu.scalaOrganization",
+      "mmu.scalaCompilerClasspath",
+      "mmu.semanticDbPluginClasspath",
+      "mmu.zincReportCachedProblems",
+      "mmu.zincIncrementalCompilation"
+    ],
+    "inputsHash": -1520936606
+  }
+]

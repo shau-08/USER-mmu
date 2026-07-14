@@ -1,0 +1,21 @@
+{
+    "value": [
+        "qref:v1:8e0be3e2:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/de/tototec/de.tobiasroeser.mill.vcs.version_mill0.11_2.13/0.4.1/de.tobiasroeser.mill.vcs.version_mill0.11_2.13-0.4.1.jar",
+        "qref:v1:d441151d:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/com/goyeau/mill-scalafix_mill0.11_2.13/0.3.1/mill-scalafix_mill0.11_2.13-0.3.1.jar",
+        "qref:v1:647bb4c6:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.10.9/mill-moduledefs_2.13-0.10.9.jar",
+        "qref:v1:0004e741:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+        "qref:v1:3ba9a6d0:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.11.0/scalafix-interfaces-0.11.0.jar",
+        "qref:v1:9fdefe3c:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.jar",
+        "qref:v1:04995673:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar",
+        "qref:v1:388af458:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar",
+        "qref:v1:589290b0:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+        "qref:v1:0a188859:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/interface/1.0.16/interface-1.0.16.jar",
+        "qref:v1:9ddb38f4:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar",
+        "qref:v1:c3fede0e:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+        "qref:v1:cc689ca3:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar",
+        "qref:v1:85acd520:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
+        "qref:v1:9a88caca:/home/shauryaps/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+    ],
+    "valueHash": 864682886,
+    "inputsHash": 1401258465
+}

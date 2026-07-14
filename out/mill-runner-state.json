@@ -1,0 +1,42 @@
+{
+    "workerCache": {
+        "mill.scalalib.ZincWorkerModule.worker": {
+            "identityHashCode": 1067995708,
+            "inputHash": -781618123
+        }
+    },
+    "evalWatched": [
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/chipyard/tools/stage/compile-resources",
+        "ref:v0:4a6d6b06:/home/shauryaps/playground/dependencies/chipyard/tools/tapeout/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/chipyard/tools/tapeout/src/main/java",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/compile-resources",
+        "ref:v0:7f775e70:/home/shauryaps/playground/dependencies/rocket-chip/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/rocket-chip/src/main/java",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/diplomacy/diplomacy/compile-resources",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/dependencies/redefine-header/compile-resources",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/berkeley-hardfloat/hardfloat/compile-resources",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/dependencies/redefine-header/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/dependencies/redefine-header/src/main/java",
+        "ref:v0:4bd9491e:/home/shauryaps/playground/dependencies/chipyard/tools/stage/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/chipyard/tools/stage/src/main/java",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/rocket-chip/macros/compile-resources",
+        "ref:v0:295486fa:/home/shauryaps/USER-mmu/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/src/main/java",
+        "ref:v0:b776fb69:/home/shauryaps/playground/dependencies/rocket-chip/macros/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/rocket-chip/macros/src/main/java",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/rocket-chip/compile-resources",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/chipyard/tools/tapeout/compile-resources",
+        "ref:v0:bebd4a6e:/home/shauryaps/playground/dependencies/berkeley-hardfloat/hardfloat/src",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/dependencies/emitrtl/compile-resources",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/dependencies/emitrtl/src/main/scala",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/dependencies/emitrtl/src/main/java",
+        "ref:v0:3d5cccfa:/home/shauryaps/playground/dependencies/cde/cde/src",
+        "ref:v0:c984eca8:/home/shauryaps/playground/dependencies/cde/cde/compile-resources",
+        "ref:v0:cf09ca26:/home/shauryaps/playground/dependencies/diplomacy/diplomacy/src"
+    ],
+    "moduleWatched": [],
+    "scriptImportGraph": [],
+    "classLoaderIdentity": [],
+    "runClasspath": [],
+    "runClasspathHash": 473519988
+}

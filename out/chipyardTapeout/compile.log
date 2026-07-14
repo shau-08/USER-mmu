@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0mcompiling 11 Scala sources to /home/shauryaps/USER-mmu/out/chipyardTapeout/compile.dest/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/shauryaps/playground/dependencies/chipyard/tools/tapeout/src/main/scala/macrolib/FlipChipMacro.scala:55:46: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Some(JsArray(_)), Some(JsFalse), Some(JsNull), Some(JsNumber(_)), Some(JsObject(_)), Some(JsString(_)), Some(JsTrue)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val bumpDimensions: (Int, Int) = json.get("bump_dimensions") match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m4 deprecations (since 2.13.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 deprecations (since 2.13.3)[0m
+[0m[[0m[33mwarn[0m] [0m[0m14 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
