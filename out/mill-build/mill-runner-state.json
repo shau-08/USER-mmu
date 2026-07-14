@@ -7,8 +7,8 @@
     },
     "evalWatched": [
         "ref:v0:c984eca8:/home/shauryaps/USER-mmu/mill-build/src",
+        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/mill-build/resources",
         "ref:v0:c984eca8:/home/shauryaps/USER-mmu/mill-build/compile-resources",
-        "qref:v0:a08858e2:/home/shauryaps/USER-mmu/out/mill-launcher/0.11.6.jar",
         "ref:v0:777f1d94:/home/shauryaps/playground/dependencies/cde/build.sc",
         "ref:v0:e34cbb7e:/home/shauryaps/playground/builddefs.sc",
         "ref:v0:97b300ce:/home/shauryaps/playground/dependencies/berkeley-hardfloat/common.sc",
@@ -16,7 +16,7 @@
         "ref:v0:b3baae94:/home/shauryaps/USER-mmu/build.sc",
         "ref:v0:f18a6578:/home/shauryaps/playground/dependencies/diplomacy/common.sc",
         "ref:v0:a323e437:/home/shauryaps/playground/dependencies/rocket-chip/common.sc",
-        "ref:v0:c984eca8:/home/shauryaps/USER-mmu/mill-build/resources"
+        "qref:v0:a08858e2:/home/shauryaps/USER-mmu/out/mill-launcher/0.11.6.jar"
     ],
     "moduleWatched": [],
     "scriptImportGraph": [

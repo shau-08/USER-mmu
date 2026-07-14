@@ -8,18 +8,18 @@
   {
     "label": "mmu.sources",
     "millis": 1,
-    "inputsHash": -2103841126,
-    "previousInputsHash": -935208725
+    "inputsHash": 866932290,
+    "previousInputsHash": -780607567
   },
   {
     "label": "mmu.scalafmtConfig",
-    "millis": 2,
-    "inputsHash": -1854486488,
-    "previousInputsHash": -20643495
+    "millis": 1,
+    "inputsHash": 1260190642,
+    "previousInputsHash": -1854486488
   },
   {
     "label": "mmu.reformat",
-    "millis": 1,
+    "millis": 5,
     "cached": false,
     "dependencies": [
       "mmu.scalafmtConfig",
