@@ -117,7 +117,7 @@ object inclusivecache extends playground_build.CommonModule {
   override def moduleDeps = super.moduleDeps ++ Seq(myrocketchip)
 }
 
-object testchipip extends playground_build.CommonModule with SbtModule {
+object testchip extends playground_build.CommonModule with SbtModule {
   override def millSourcePath = os.pwd / os.up / "playground" / "dependencies" / "testchipip"
   override def moduleDeps     = super.moduleDeps ++ Seq(myrocketchip, blocks)
 }
@@ -132,23 +132,11 @@ object shells extends playground_build.CommonModule with SbtModule {
   override def moduleDeps     = super.moduleDeps ++ Seq(myrocketchip)
 }
 
-object header extends playground_build.CommonModule with SbtModule {
-  override def millSourcePath = os.pwd / "dependencies" / "redefine-header"
-
-  override def moduleDeps = super.moduleDeps ++ Seq(mydiplomacy, mycde, myrocketchip, emitrtl)
-}
-
-object simpleRoCC extends playground_build.CommonModule with SbtModule {
-  override def millSourcePath = os.pwd / "dependencies" / "SimpleRoCC"
-
-  override def moduleDeps = super.moduleDeps ++ Seq(mydiplomacy, mycde, myrocketchip, emitrtl)
-}
-
 object chipyardAnnotations extends playground_build.CommonModule with SbtModule {
   override def millSourcePath = os.pwd / os.up/ "playground" / "dependencies" / "chipyard" / "tools" / "stage"
   override def moduleDeps     = super.moduleDeps ++ Seq(myrocketchip)
 }
- 
+
 object chipyardTapeout extends playground_build.CommonModule with SbtModule {
   override def millSourcePath = os.pwd / os.up/ "playground" / "dependencies" / "chipyard" / "tools" / "tapeout"
   //override def millSourcePath = os.pwd / "dependencies" / "chipyard" / "tools" / "tapeout"
@@ -183,15 +171,15 @@ trait ScalacOptions extends ScalaModule {
   }
 }
 
-object mmu
+object explorerTL
   extends playground_build.CommonModule
   with SbtModule
   with ScalafmtModule
   with ScalafixModule
-  with ScalacOptions {
+  with ScalacOptions { m =>
   override def millSourcePath = os.pwd
-
-  override def moduleDeps = super.moduleDeps ++ Seq(mydiplomacy, mycde, myrocketchip, header, emitrtl, chipyardAnnotations, chipyardTapeout)
+  // Update moduleDeps as required
+  override def moduleDeps = super.moduleDeps ++ Seq(myrocketchip, testchip, emitrtl, mycde, mydiplomacy)
 
   object test extends SbtModuleTests with ScalaTest with ScalafmtModule with ScalafixModule {
     override def ivyDeps = super.ivyDeps() ++ Agg(
@@ -199,4 +187,4 @@ object mmu
       playground_build.ivys.oslib,
     )
   }
-}
+  }
