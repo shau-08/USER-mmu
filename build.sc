@@ -152,6 +152,10 @@ object chipyardTapeout extends playground_build.CommonModule with SbtModule {
 
 object emitrtl extends playground_build.CommonModule with SbtModule {
   override def millSourcePath = os.pwd / "dependencies" / "emitrtl"
+<<<<<<< HEAD
+=======
+  override def moduleDeps = super.moduleDeps ++ Seq(myrocketchip, chipyardAnnotations, chipyardTapeout)
+>>>>>>> 80e05f0 (add scalatest dependency to emitrtl for VerilatorSimulator)
   override def moduleDeps = super.moduleDeps ++ Seq(myrocketchip, chipyardAnnotations, chipyardTapeout)
   override def ivyDeps = super.ivyDeps() ++ Agg(playground_build.ivys.scalatest)
 }
