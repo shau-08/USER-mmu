@@ -1,5 +1,5 @@
 project = explorerTL
-TARGET ?= "Point2Point"
+TARGET ?= "minimal"
 -include cd.config
 RTL_TARGET ?= rtl
 # Toolchains and tools
