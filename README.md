@@ -15,6 +15,10 @@ Two repos are involved:
 
 Updating CI/CD behavior for every project repo at once means editing the CICD repo — project repos never need to be touched individually.
 
+Also playground should be at same level as this repo so better to clone it and then link it
+ln -s "$GITHUB_WORKSPACE/playground" "$(dirname "$GITHUB_WORKSPACE")/playground"
+git@github.com:morphingmachines/playground.git
+
 ## 2. What Happens Automatically (Features)
 
 - **CI on every push and pull request** — checks out the shared `playground` toolchain, installs Java/Mill/firtool/verilator, runs the project's tests, then lints.
