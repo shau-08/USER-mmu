@@ -1,5 +1,5 @@
 project = explorerTL
-TARGET ?= "minimal"
+TARGET ?= "Minimal"
 -include cd.config
 RTL_TARGET ?= rtl
 # Toolchains and tools
