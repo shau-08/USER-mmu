@@ -124,7 +124,7 @@ Everything in §1–§7 assumes the central **CICD** repo and its SSH access alr
 
 ### 8.1 Creating the central repo
 
-1. Create a new repo in the organization's GitHub account (e.g. `YOUR_ORG/CICD`).
+1. Create a new repo in the organization's GitHub account (e.g. `YOUR_ORG/CICD`, if you change name from CICD to something else that should be changed as well in the path of caller yaml files in user's repo as well as in central repo's reusable yaml files. Currently its "shau-08/CICD").
 2. Add these files to it:
    ```
    .github/workflows/reusable-ci.yml
